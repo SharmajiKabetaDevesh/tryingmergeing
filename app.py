@@ -12,5 +12,10 @@ def home():
     return "Devesh Working shit"
 
 
+@app.route("/ok",methods=['GET'])
+def ok():
+    return "Devesh Working ok"
+
+
 if __name__  == "__main__":
     app.run(port=4001,debug =True)
